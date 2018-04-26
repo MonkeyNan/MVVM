@@ -19,6 +19,7 @@ var MyApp = san.defineComponent({
     	+ '</div>'
     ,
 
+    // 没起作用
     dataTypes: {
     	name: DataTypes.string,
     	age: DataTypes.number,

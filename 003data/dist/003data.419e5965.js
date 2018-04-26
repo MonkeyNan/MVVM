@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({7:[function(require,module,exports) {
+})({10:[function(require,module,exports) {
 /**
  * San
  * Copyright 2016 Baidu Inc. All rights reserved.
@@ -9339,6 +9339,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var MyApp = _san2.default.defineComponent({
     template: '' + '<div id="info" style="margin-top:50px;margin-left:100px;">' + '<div class="top">' + '<input type="text" placeholder="姓名（string）" value="{= list.name =}">' + '<input type="text" placeholder="年龄（number）" value="{= list.age =}">' + '<input type="text" placeholder="简介（string）" value="{= list.summary =}">' + '</div>' + '<div class="mid">' + '<span style="border:none;min-width:50px;">信息：</span><input type="button" value="移除信息" on-click="clear" style="width:70px;height:27px;">' + '</div>' + '<div class="buttom">' + '<p>姓名：<span>{{list.name}}</span></p>' + '<p>年龄：<span>{{list.age}}</span></p>' + '<p>简介：<span>{{list.summary}}</span></p>' + '</div>' + '</div>',
 
+    // 没起作用
     dataTypes: {
         name: _san.DataTypes.string,
         age: _san.DataTypes.number,
@@ -9352,7 +9353,7 @@ var MyApp = _san2.default.defineComponent({
 
 var myApp = new MyApp();
 myApp.attach(document.body);
-},{"san":7}],11:[function(require,module,exports) {
+},{"san":10}],16:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -9382,7 +9383,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61564' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63564' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -9521,5 +9522,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[11,2])
+},{}]},{},[16,2])
 //# sourceMappingURL=/003data.419e5965.map
