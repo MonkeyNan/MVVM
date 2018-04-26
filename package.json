@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.2",
     "san": "^3.5.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "dev": "npm run start",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
