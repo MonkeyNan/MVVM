@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; }
+div {
+	margin-bottom: 20px;
+}
+input {
+	width: 200px;
+	height: 30px;
+	margin-right: 20px;
+}
+span {
+	display: inline-block;
+	min-width: 100px;
+	border-bottom: 1px solid black;
+}

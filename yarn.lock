@@ -805,7 +805,7 @@ postcss@^6.0.1, postcss@^6.0.21:
 
 posthtml-img-autosize@^0.1.2:
   version "0.1.2"
-  resolved "http://registry.npm.taobao.org/posthtml-img-autosize/download/posthtml-img-autosize-0.1.2.tgz#1ef81692fb79c76fb69af9affb50304cae3351ff"
+  resolved "https://registry.npmjs.org/posthtml-img-autosize/-/posthtml-img-autosize-0.1.2.tgz#1ef81692fb79c76fb69af9affb50304cae3351ff"
   dependencies:
     image-size "^0.6.2"
 
